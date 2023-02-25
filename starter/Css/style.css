@@ -164,6 +164,7 @@ img {
 .hero img {
 	height: 37.5rem;
 	width: 37.5rem;
+	display: block;
 }
 
 .bio {
@@ -192,6 +193,7 @@ img {
 }
 
 /* styling section */
+
 .more-about {
 	background-color: var(--bg-color);
 	padding: 1rem 6rem;
@@ -238,7 +240,7 @@ img {
 /* project  styling*/
 
 .styling-image {
-	width: 100%;
+	/* width: 100%; */
 	margin-top: 5rem;
 }
 
@@ -277,7 +279,7 @@ img {
 div.project-container .project-card {
 	box-sizing: border-box;
 	width: 100%;
-	margin: 0.2rem;
+	margin: 0.048rem;
 }
 
 /* adding box shadow to projects  */
@@ -402,7 +404,7 @@ footer {
 	height: 3rem;
 }
 /* creating responsesiveness */
-@media screen and (min-width: 220px) {
+@media screen and (max-width: 420px) {
 	html {
 		cursor: pointer;
 	}
